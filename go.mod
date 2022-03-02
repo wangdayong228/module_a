@@ -9,3 +9,7 @@ go 1.16
 // replace(
 // example.com/b => ../module_b
 // )
+
+replace github.com/wangdayong228/module_b => ../module_b
+
+require github.com/wangdayong228/module_b v0.0.0-00010101000000-000000000000 // indirect

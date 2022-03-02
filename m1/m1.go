@@ -1,9 +1,9 @@
 package m1
 
-// import (
-// 	"example.com/b/m1"
-// )
+import (
+	"github.com/wangdayong228/module_b/moduleb"
+)
 
-// func Foo() {
-// 	m1.Foo()
-// }
+func Foo() {
+	moduleb.Foo()
+}
